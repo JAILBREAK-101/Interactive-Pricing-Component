@@ -1,0 +1,147 @@
+/* The Style. */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-background-color: hsl(216, 12%, 8%);
+    --container-bg-btn-bg: hsl(213, 19%, 18%);
+    --header-txt-clr: hsl(0, 0%, 100%);
+    --normal-txt-clr: hsl(216, 12%, 54%);
+    --light-clr: hsl(217, 12%, 63%);
+    --btn-clr: hsl(0, 0%, 100%);
+    --btn-bg-clr: hsl(25, 97%, 53%);
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;;
+    margin: 0;
+}
+
+main {
+    background: var(--main-background-color);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.con-style {
+    background: var(--container-bg-btn-bg);
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+}
+
+.con-style h3 {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.star-icon {
+    height: 30px;
+}
+
+.star-icon img {
+    padding: 10px;
+    height: 100%;
+    object-fit: cover;
+    background: var(--normal-txt-clr);
+    border-radius: 20px;
+}
+
+.con-style p {
+    max-width: 40ch;
+    line-height: 1.5;
+    margin-bottom: 0;
+    font-size: .7rem;
+    color: var(--normal-txt-clr);
+    font-weight: 700;
+    /* text-align: center; */
+}
+
+.clicked {
+    color: var(--btn-clr);
+    background: var(--btn-bg-clr);
+}
+
+.ratings-list {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.ratings-list button:focus {
+    background-color: var(--btn-bg-clr);
+}
+
+.ratings-list > button {
+    cursor: pointer;
+    background-color: var(--normal-txt-clr);
+    padding: 10px 15px; 
+    border-radius: 20px;
+    margin: 0;
+    font-weight: 600;
+    border: 0;
+    color: var(--btn-clr);
+}
+
+button:hover {
+    background-color: var(--light-clr);
+}
+
+.btn {
+    background: hsl(25, 97%, 53%);
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.feedback {
+    display: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feedback h1 {
+    font-size: 1.3rem;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.feedback p {
+    font-size: .7em;
+    text-align: center;
+    max-width: 40ch;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.text {
+    color: var(--btn-bg-clr) !important;
+    background-color: var(--normal-txt-clr);
+    padding: .4rem .7rem;
+    margin-top: 0;
+    border-radius: 20px;
+}

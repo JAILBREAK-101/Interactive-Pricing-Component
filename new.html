@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- The Fonts for the page. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div class="container con-style">
+            <div class=" star-icon"><img src="./images/icon-star.svg" alt="star"></div>
+            <h3>How did we do?</h3>
+            <p> Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!</p>
+            <div class="ratings">
+                    <div class="ratings-list">
+                        <button class="rating rating1">1</button>
+                        <button class="rating rating2">2</button>
+                        <button class="rating rating3">3</button>
+                        <button class="rating rating4">4</button>
+                        <button class="rating rating5">5</button>
+                    </div>
+            </div>
+            <button id="submit" class="btn">Submit</button>
+        </div>
+
+        <div class="feedback con-style">
+            <img src="./images/illustration-thank-you.svg" alt="Thank-you-picture">
+            <p class='text'>You selected
+            <span id="rated" class="rating">
+                0
+            </span> out of 5
+            </p>
+
+            <h1>THANK YOU!</h1>
+            <p> We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!
+            </p>
+        </div>
+    </main>
+
+    <script src="new.js"></script>
+</body>
+</html>
