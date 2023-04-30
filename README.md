@@ -6,8 +6,9 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/JAILBREAK-101/Interactive-Pricing-Component/)
+- Live-Site: [Live Site](-solution-url.com)
+
 
 ## My process
 
@@ -21,7 +22,7 @@
 - Vanilla JavaScript
 
 ### Socials
-- LinkedIn: [Add solution URL here](https://your-solution-url.com)
-- GitHub: [Add solution URL here](https://your-solution-url.com)
-- YouTube: [Add solution URL here](https://your-solution-url.com)
-- Twitter: [Add solution URL here](https://your-solution-url.com)
+- LinkedIn: [Oluwagbemiga Awosope](https://www.linkedin.com/in/genix-jailbreak/)
+- GitHub: [Genix-jailbreak](https://github.com/Genix-jailbreak)
+- YouTube: [Genix-Js](https://www.youtube.com/@Genix-Js)
+- Twitter: [Oluwagbemiga](https://twitter.com/GenixTech1)
